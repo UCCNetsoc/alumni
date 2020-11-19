@@ -1,0 +1,14 @@
+#testimonials>p {
+    width: 45%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 0.1%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+body {
+    background-color: #212121;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
