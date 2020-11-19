@@ -11,11 +11,11 @@ export default function constructCard(item_num, testimonial_item) {
     <div class="t-card-circle">
         <img src="${
           testimonial_item.image
-        }" class="t-card-image"alt="Alumni Image" width="500" height="500" style="object-fit: cover;"/>
+        }" class="t-card-image"alt="Alumni Image"/>
     </div>
     <div class="t-card-header">
-        <span class="t-card-header-name">${testimonial_item.name}</span>
-        <span class="t-card-header-position">${testimonial_item.position}</span>
+        <span class="t-card-header-name">${testimonial_item.name.toUpperCase()}</span>
+        <span class="t-card-header-position">${testimonial_item.position.toUpperCase()}</span>
         <span class="t-card-header-year">${
           testimonial_item.years_active.end
         }</span>
