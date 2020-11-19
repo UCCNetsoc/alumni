@@ -12,7 +12,7 @@
   {
     "name": "Thomas Galligan",
     "position": "Sys-Admin",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus.",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "years_active": {
       "start": 2019,
       "end": 2023
@@ -32,11 +32,21 @@
   {
     "name": "John Smith",
     "position": "Events Officer",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus.",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus.",
     "years_active": {
       "start": 2015,
       "end": 2017
     },
     "image": "https://www.vermontgas.com/wp-content/uploads/2016/11/Phil-Schiller-headshot-e1362692403868.jpg"
+  },
+  {
+    "name": "Reece Donovan",
+    "position": "Random Lad",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus.",
+    "years_active": {
+      "start": 2019,
+      "end": 2022
+    },
+    "image": "https://media.discordapp.net/attachments/471231303317192735/778916674832826368/ProfilePic.jpg?width=1057&height=1151"
   }
 ]
