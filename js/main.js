@@ -1,4 +1,4 @@
-import GITHUB_TESTIMONIAL_URL from "./config.js";
+// import GITHUB_TESTIMONIAL_URL from "./config.js";
 import constructCard from "./card.js";
 
 async function parseTestimonials() {
@@ -6,7 +6,7 @@ async function parseTestimonials() {
    * [parseTestimonials: Sends request to github repo through API then parses alumni testimonials.json]
    * @return {json promise} data [returns promise of parsed json testimonial data]
    */
-  const response = await fetch(GITHUB_TESTIMONIAL_URL);
+  const response = await fetch("./testimonials.json");
   const data = await response.json();
   return data;
 }
