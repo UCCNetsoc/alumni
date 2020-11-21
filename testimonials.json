@@ -7,7 +7,8 @@
       "start": 2020,
       "end": 2022
     },
-    "image": "https://cdn.discordapp.com/avatars/125349447327678465/497e338cdb01f3fceefc1166d20caac7.png?size=2048&width=1151&height=1151"
+    "profile_image": "https://cdn.discordapp.com/avatars/125349447327678465/497e338cdb01f3fceefc1166d20caac7.png?size=2048&width=1151&height=1151",
+    "banner_image": "https://media.istockphoto.com/videos/group-of-businesspeople-playing-trust-game-in-office-video-id1152354349?s=640x640"
   },
   {
     "name": "Thomas Galligan",
@@ -17,7 +18,8 @@
       "start": 2019,
       "end": 2023
     },
-    "image": "https://media.discordapp.net/attachments/471231303317192735/778821386331357244/TrumpTiara_Full.png"
+    "profile_image": "https://media.discordapp.net/attachments/471231303317192735/778821386331357244/TrumpTiara_Full.png",
+    "banner_image": ""
   },
   {
     "name": "Eric Moynahan",
@@ -27,7 +29,8 @@
       "start": 2019,
       "end": 2022
     },
-    "image": "https://i.pinimg.com/originals/e9/e8/05/e9e805c05ac5e55dccd7e53281e68560.png"
+    "profile_image": "https://i.pinimg.com/originals/e9/e8/05/e9e805c05ac5e55dccd7e53281e68560.png",
+    "banner_image": "https://media.istockphoto.com/videos/group-of-businesspeople-playing-trust-game-in-office-video-id1152354349?s=640x640"
   },
   {
     "name": "John Smith",
@@ -37,7 +40,8 @@
       "start": 2015,
       "end": 2017
     },
-    "image": "https://www.vermontgas.com/wp-content/uploads/2016/11/Phil-Schiller-headshot-e1362692403868.jpg"
+    "profile_image": "https://www.vermontgas.com/wp-content/uploads/2016/11/Phil-Schiller-headshot-e1362692403868.jpg",
+    "banner_image": ""
   },
   {
     "name": "Reece Donovan",
@@ -47,6 +51,7 @@
       "start": 2019,
       "end": 2022
     },
-    "image": "https://media.discordapp.net/attachments/471231303317192735/778916674832826368/ProfilePic.jpg?width=1057&height=1151"
+    "profile_image": "https://media.discordapp.net/attachments/471231303317192735/778916674832826368/ProfilePic.jpg?width=1057&height=1151",
+    "banner_image": ""
   }
 ]
