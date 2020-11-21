@@ -32,7 +32,7 @@ export default function constructCard(item_num, testimonial_item) {
       <section>
         <p class="t-card-body-text">${testimonial_item.testimonial}</p>
       </section>
-      <div class="t-card-body-image" style="background-image:url(${banner_image})"></div>
+      <div class="t-card-body-image" style="box-shadow:hsl(${hsl}, 56%, 57%) 0px 0px 50px 50px; background-image:linear-gradient(-90deg, transparent, hsl(${hsl}, 56%, 57%)),url(${banner_image})"></div>
     </div>
   </div>
   `;

@@ -189,6 +189,8 @@ footer {
   right: 0px;
   background-size: 175%;
   background-position-y: 100%;
+  filter: grayscale(100%) contrast(1);
+  mix-blend-mode: luminosity;
 }
 
 /* Button Styling */
