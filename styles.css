@@ -13,9 +13,6 @@
 
 html {
   width: 100%;
-  /* max-width: 100vw; */
-  /* overflow: hidden !important; */
-  /* min-height: 100%; */
   background-color: var(--main-bg-color);
 }
 
@@ -123,7 +120,6 @@ footer {
 /* Card Styling */
 
 .t-card {
-  max-height: 200px;
   min-height: 200px;
 }
 
@@ -157,27 +153,42 @@ footer {
 .t-card-header-year {
   font-size: 1em;
 }
+.t-card-alumni-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: none;
+  position: fixed;
+}
 
 .t-card-body {
   max-height: 155px;
   min-height: 155px;
   display: flex;
   align-items: center;
-  margin: auto;
-}
-.t-card-body > p {
-  width: 80%;
-  text-align: center;
-  font-size: 0.8em;
-  margin: 0 auto;
+  margin: 0;
+  position: relative;
+  padding: 0 0 0 10%;
+  overflow: hidden;
 }
 
-.t-card-image {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  display: none;
-  position: fixed;
+.t-card-body p {
+  width: 80%;
+  font-size: 0.8em;
+  z-index: 1;
+  position: relative;
+}
+
+.t-card-body-image {
+  float: right;
+  opacity: 0.6;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-size: 175%;
+  background-position-y: 100%;
 }
 
 /* Button Styling */
@@ -236,19 +247,27 @@ input[type="submit"].button-primary:focus {
 
 /* Media Queries */
 
-/* Larger than desktop */
 @media (min-width: 1024px) {
   /* Nav Styling */
+
+  h1 {
+    font-size: 32px !important;
+    opacity: 0.8;
+  }
 
   .logo {
     height: 20px;
     width: auto;
   }
+
   .page-title {
     font-size: 2em;
   }
 
   /* Section Styling */
+  .section-header {
+    height: 60px;
+  }
   .section-content {
     flex-direction: row;
     justify-content: left;
@@ -261,18 +280,24 @@ input[type="submit"].button-primary:focus {
   }
 
   /* Card Styling */
+
+  .t-card-header {
+    height: 66px;
+  }
   .t-card-header ul {
     justify-content: flex-start;
+    padding: 0 0 0 2%;
   }
   .t-card-header ul h2 {
     margin: 0 5px;
+    padding: 27px 0 0 0 !important;
   }
   .t-card-header-name {
-    font-size: 1.6em;
+    font-size: 40px;
   }
   .t-card-header-position,
   .t-card-header-year {
-    font-size: 1.2em;
+    font-size: 28px;
   }
   .t-card {
     min-height: 300px;
@@ -280,13 +305,20 @@ input[type="submit"].button-primary:focus {
   .t-card-body {
     /* align-items: flex-start; */
     min-height: 255px;
+    padding: 0 0 0 2%;
   }
-  .t-card-body > p {
+  .t-card-body p {
     width: 60%;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: left;
     margin: 0 5px;
   }
+
+  .t-card-body-image {
+    background-size: 100%;
+    background-position-y: 70%;
+  }
+
   .t-card-header ul h2 {
     padding: 20px 0 0 0;
   }
