@@ -1,57 +1,24 @@
 [
   {
-    "name": "Oisin Canty",
-    "position": "Head Sys-Admin",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus.",
+    "name": "ALUMNI_NAME",
+    "position": "ALUMNI_POSITION",
+    "testimonial": "ALUMNI_TESTIMONIAL",
     "years_active": {
-      "start": 2020,
-      "end": 2022
+      "start": 20xx,
+      "end": 20xx
     },
-    "profile_image": "https://cdn.discordapp.com/avatars/125349447327678465/2a975d9a2f4f4bd1c8bcfd50c609f8ee.png?size=2048&width=1151&height=1151",
-    "banner_image": "https://media.istockphoto.com/videos/group-of-businesspeople-playing-trust-game-in-office-video-id1152354349?s=640x640"
+    "profile_image": "ALUMNI_IMAGE_URL/PATH",
+    "banner_image": "ALUMNI_BANNER_URL/PATH (if empty defaults to Netsoc stock images)"
   },
   {
-    "name": "Thomas Galligan",
-    "position": "Sys-Admin",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus. Morbi non tellus pulvinar, pellentesque ex a, volutpat metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "name": "ALUMNI_NAME",
+    "position": "ALUMNI_POSITION",
+    "testimonial": "ALUMNI_TESTIMONIAL",
     "years_active": {
-      "start": 2019,
-      "end": 2023
+      "start": 20xx,
+      "end": 20xx
     },
-    "profile_image": "https://media.discordapp.net/attachments/471231303317192735/778821386331357244/TrumpTiara_Full.png",
-    "banner_image": ""
-  },
-  {
-    "name": "Eric Moynahan",
-    "position": "Sys-Admin",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "years_active": {
-      "start": 2019,
-      "end": 2022
-    },
-    "profile_image": "https://i.pinimg.com/originals/e9/e8/05/e9e805c05ac5e55dccd7e53281e68560.png",
-    "banner_image": "https://media.istockphoto.com/videos/group-of-businesspeople-playing-trust-game-in-office-video-id1152354349?s=640x640"
-  },
-  {
-    "name": "John Smith",
-    "position": "Events Officer",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus.",
-    "years_active": {
-      "start": 2015,
-      "end": 2017
-    },
-    "profile_image": "https://www.vermontgas.com/wp-content/uploads/2016/11/Phil-Schiller-headshot-e1362692403868.jpg",
-    "banner_image": ""
-  },
-  {
-    "name": "Reece Donovan",
-    "position": "Random Lad",
-    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sodales felis, eu tempus erat. Donec eu ante in ante pellentesque finibus feugiat a tortor. Nullam metus arcu, malesuada avenenatisquis, rutrum vitae metus.",
-    "years_active": {
-      "start": 2019,
-      "end": 2022
-    },
-    "profile_image": "https://media.discordapp.net/attachments/471231303317192735/778916674832826368/ProfilePic.jpg?width=1057&height=1151",
-    "banner_image": ""
+    "profile_image": "ALUMNI_IMAGE_URL/PATH",
+    "banner_image": "ALUMNI_BANNER_URL/PATH (if empty defaults to Netsoc stock images)"
   }
 ]
