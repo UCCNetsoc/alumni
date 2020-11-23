@@ -12,7 +12,7 @@
 }
 
 html {
-  width: 100%;
+  max-width: 100%;
   background-color: var(--main-bg-color);
 }
 
@@ -121,6 +121,7 @@ footer {
 
 .t-card {
   min-height: 200px;
+  position: relative;
 }
 
 .t-card-header {
@@ -149,16 +150,14 @@ footer {
 .t-card-header-name {
   font-size: 1.4em;
 }
+
 .t-card-header-position,
 .t-card-header-year {
   font-size: 1em;
 }
+
 .t-card-alumni-image {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
   display: none;
-  position: fixed;
 }
 
 .t-card-body {
@@ -250,11 +249,11 @@ input[type="submit"].button-primary:focus {
 /* Media Queries */
 
 @media (min-width: 1024px) {
-  /* Nav Styling */
+  /* Basic Page Styling */
 
   h1 {
-    font-size: 32px !important;
-    opacity: 0.8;
+    font-size: 28px !important;
+    opacity: 0.6;
   }
 
   .logo {
@@ -267,14 +266,36 @@ input[type="submit"].button-primary:focus {
   }
 
   /* Section Styling */
+
   .section-header {
     height: 60px;
   }
+
   .section-content {
+    height: 225px;
+    width: 100%;
     flex-direction: row;
     justify-content: left;
     text-align: left;
-    margin: 0 10px;
+    padding: 0 0 0 10%;
+  }
+
+  .section-content > div {
+    margin: 0 0 0 5px;
+  }
+
+  .section-title {
+    padding: 0 0 0 10%;
+    margin: 0 5px;
+  }
+
+  /* Button Styling */
+
+  .button,
+  button,
+  input[type="submit"] {
+    height: 48px;
+    line-height: 48px;
   }
 
   #dono-btn {
@@ -286,29 +307,54 @@ input[type="submit"].button-primary:focus {
   .t-card-header {
     height: 66px;
   }
+
   .t-card-header ul {
     justify-content: flex-start;
-    padding: 0 0 0 2%;
+    padding: 0 0 0 10%;
   }
+
   .t-card-header ul h2 {
     margin: 0 5px;
     padding: 27px 0 0 0 !important;
   }
+
   .t-card-header-name {
     font-size: 40px;
   }
+
   .t-card-header-position,
   .t-card-header-year {
     font-size: 28px;
   }
+
   .t-card {
     min-height: 300px;
   }
-  .t-card-body {
-    /* align-items: flex-start; */
-    min-height: 255px;
-    padding: 0 0 0 2%;
+
+  .t-card-circle {
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translateX(-25%);
+    z-index: 999;
+    border-radius: 50%;
+    overflow: hidden;
   }
+
+  .t-card-alumni-image {
+    display: block;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+
+  .t-card-body {
+    min-height: 255px;
+    padding: 0 0 0 10%;
+  }
+
   .t-card-body p {
     width: 60%;
     font-size: 1.2em;
