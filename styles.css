@@ -45,7 +45,7 @@ nav {
   align-content: center;
   position: fixed;
   top: 0;
-  z-index: 999;
+  z-index: 2;
 }
 nav .logo {
   margin: auto 0 auto 10px;
@@ -261,7 +261,7 @@ input[type="submit"].button-primary:focus {
     position: absolute;
     left: 75%;
     transform: translateX(-5%);
-    z-index: 999;
+    z-index: 1;
   }
   /* Card Styling */
   .t-card-header {
@@ -292,7 +292,7 @@ input[type="submit"].button-primary:focus {
     top: 25%;
     left: 75%;
     transform: translateX(-25%);
-    z-index: 999;
+    z-index: 1;
     border-radius: 50%;
     overflow: hidden;
   }
