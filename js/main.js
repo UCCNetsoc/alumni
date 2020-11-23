@@ -1,4 +1,3 @@
-// import GITHUB_TESTIMONIAL_URL from "./config.js";
 import constructCard from "./card.js";
 
 async function parseTestimonials() {

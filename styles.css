@@ -4,25 +4,21 @@
   --section-bar-color: #212121;
   --card-title-bar-color: #252525;
 }
-
 /* Basic Page Styling */
-
 * {
   box-sizing: border-box;
 }
-
 html {
   max-width: 100%;
+  min-width: 100%;
   background-color: var(--main-bg-color);
 }
-
 body {
   width: inherit;
   min-height: inherit;
   margin: 0;
   padding: 0;
 }
-
 h1 {
   font-family: Lato, sans-serif;
   color: white;
@@ -30,20 +26,16 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
-
 p {
   font-family: roboto, sans-serif;
   font-size: 1em;
 }
-
 .logo {
   height: 10px;
   width: auto;
   opacity: 0.8;
 }
-
 /* Nav Styling */
-
 nav {
   width: 100%;
   height: 65px;
@@ -55,12 +47,10 @@ nav {
   top: 0;
   z-index: 999;
 }
-
 nav .logo {
   margin: auto 0 auto 10px;
   float: left;
 }
-
 .page-title {
   float: none;
   position: absolute;
@@ -69,7 +59,6 @@ nav .logo {
   left: 50%;
   transform: translate(-51%, -54%);
 }
-
 /* Section Styling */
 .section-content {
   display: flex;
@@ -80,34 +69,26 @@ nav .logo {
   margin: 0 auto;
   text-align: center;
 }
-
 .section-header {
   background-color: var(--section-bar-color);
   height: 40px;
   display: flex;
   align-items: center;
 }
-
 .section-title {
   font-size: 1.2em;
   margin: 0 10px;
 }
-
 /* Society Description Styling */
-
 #soc-desc-section {
   margin-top: 65px;
   color: white;
 }
-
 /* Donate Button Styling */
-
 #dono-btn {
   margin-bottom: 1.2em;
 }
-
 /* Footer Styling */
-
 footer {
   min-height: 35px;
   max-height: 35px;
@@ -116,14 +97,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
 /* Card Styling */
-
 .t-card {
   min-height: 200px;
   position: relative;
 }
-
 .t-card-header {
   height: 45px;
   background-color: var(--card-title-bar-color);
@@ -131,7 +109,6 @@ footer {
   font-weight: bold;
   white-space: nowrap;
 }
-
 .t-card-header ul {
   display: flex;
   flex-direction: row;
@@ -141,28 +118,23 @@ footer {
   margin: 0;
   padding: 0;
 }
-
 .t-card-header ul h2 {
   margin: 0;
   padding: 23px 0 0 0;
 }
-
 .t-card-header-name {
   font-size: 1.4em;
 }
-
 .t-card-header-position,
 .t-card-header-year {
   font-size: 1em;
 }
-
 .t-card-alumni-image {
   display: none;
 }
-
 .t-card-body {
-  max-height: 155px;
-  min-height: 155px;
+  max-height: 185px;
+  min-height: 185px;
   display: flex;
   align-items: center;
   margin: 0;
@@ -170,14 +142,11 @@ footer {
   padding: 0 0 0 10%;
   overflow: hidden;
 }
-
 .t-card-body p {
   width: 80%;
-  font-size: 0.8em;
   z-index: 1;
   position: relative;
 }
-
 .t-card-body-image {
   float: right;
   opacity: 0.6;
@@ -191,7 +160,6 @@ footer {
   filter: grayscale(100%) contrast(1);
   mix-blend-mode: luminosity;
 }
-
 /* Button Styling */
 .button,
 button,
@@ -215,7 +183,6 @@ input[type="submit"] {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
 }
-
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -226,7 +193,6 @@ input[type="submit"]:focus {
   border-color: #888;
   outline: 0;
 }
-
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary {
@@ -234,7 +200,6 @@ input[type="submit"].button-primary {
   background-color: #33c3f0;
   border-color: #33c3f0;
 }
-
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -245,32 +210,24 @@ input[type="submit"].button-primary:focus {
   background-color: #1eaedb;
   border-color: #1eaedb;
 }
-
 /* Media Queries */
-
 @media (min-width: 1024px) {
   /* Basic Page Styling */
-
   h1 {
     font-size: 28px !important;
     opacity: 0.6;
   }
-
   .logo {
     height: 20px;
     width: auto;
   }
-
   .page-title {
     font-size: 2em;
   }
-
   /* Section Styling */
-
   .section-header {
     height: 60px;
   }
-
   .section-content {
     height: 225px;
     width: 100%;
@@ -279,58 +236,55 @@ input[type="submit"].button-primary:focus {
     text-align: left;
     padding: 0 0 0 10%;
   }
-
-  .section-content > div {
+  .section-para {
     margin: 0 0 0 5px;
+    width: 100%;
   }
-
+  .section-para p {
+    width: 60%;
+    font-size: 1.2em;
+    text-align: left;
+    margin: 0 5px;
+  }
   .section-title {
     padding: 0 0 0 10%;
     margin: 0 5px;
   }
-
   /* Button Styling */
-
   .button,
   button,
   input[type="submit"] {
     height: 48px;
     line-height: 48px;
   }
-
   #dono-btn {
-    margin: 0 auto;
+    position: absolute;
+    left: 75%;
+    transform: translateX(-5%);
+    z-index: 999;
   }
-
   /* Card Styling */
-
   .t-card-header {
     height: 66px;
   }
-
   .t-card-header ul {
     justify-content: flex-start;
     padding: 0 0 0 10%;
   }
-
   .t-card-header ul h2 {
     margin: 0 5px;
     padding: 27px 0 0 0 !important;
   }
-
   .t-card-header-name {
     font-size: 40px;
   }
-
   .t-card-header-position,
   .t-card-header-year {
     font-size: 28px;
   }
-
   .t-card {
     min-height: 300px;
   }
-
   .t-card-circle {
     width: 225px;
     height: 225px;
@@ -342,31 +296,20 @@ input[type="submit"].button-primary:focus {
     border-radius: 50%;
     overflow: hidden;
   }
-
   .t-card-alumni-image {
     display: block;
     width: inherit;
     height: inherit;
     object-fit: cover;
   }
-
   .t-card-body {
     min-height: 255px;
     padding: 0 0 0 10%;
   }
-
-  .t-card-body p {
-    width: 60%;
-    font-size: 1.2em;
-    text-align: left;
-    margin: 0 5px;
-  }
-
   .t-card-body-image {
     background-size: 100%;
     background-position-y: 70%;
   }
-
   .t-card-header ul h2 {
     padding: 20px 0 0 0;
   }
